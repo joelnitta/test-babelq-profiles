@@ -1,0 +1,7 @@
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: ホーム
+      - href: about.qmd
+        text: 概要

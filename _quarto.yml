@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "test-site"
+  navbar:
+    left:
+      - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+babelquarto:
+  languagelinks: navbar
+  languagecodes:
+  - name: ja
+    text: "日本語"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['ja']
+title-ja: ニッタ　ジョエル
+description-ja: description in ja
+author-ja: author in ja
+lang: en
